@@ -1,6 +1,6 @@
 FROM mongo
 
-# Copy the initialization script to the container
+# Image will be generated with a Database already created and populated 
 COPY init.js /docker-entrypoint-initdb.d/
 
 # Make the script executable
